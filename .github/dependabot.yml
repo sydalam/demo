@@ -17,3 +17,11 @@ updates:
     directory: "/piptest"
     schedule:
       interval: "daily"
+  - package-ecosystem: "terraform"
+    directory: "/terraform"
+    schedule:
+      interval: "daily"
+    groups:
+      all-deps:
+        patterns:
+          - "*"
