@@ -1,5 +1,5 @@
 requests==2.25.1
-numpy==1.19.5
+numpy==1.22.0
 pandas==1.2.0
 flask==1.1.2
 Django==3.1.7
